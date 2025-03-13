@@ -20,7 +20,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8001"],  # Your Fresh.js frontend URL
+    allow_origins=["https://rim-gender-predictor.deno.dev"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
